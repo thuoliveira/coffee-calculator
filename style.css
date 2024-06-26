@@ -50,3 +50,14 @@ button:hover {
     margin-top: 20px;
     font-size: 1.2em;
 }
+
+/* Media query para dispositivos móveis */
+
+@media (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
